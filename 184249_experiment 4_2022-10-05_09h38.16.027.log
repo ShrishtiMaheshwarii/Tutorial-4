@@ -1,0 +1,1468 @@
+2.8126 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+9.3790 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+11.2845 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000024610E8CD00>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000024616091AC0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.2847 	EXP 	window1: mouseVisible = True
+11.2849 	EXP 	window1: mouseVisible = False
+11.2850 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+11.2850 	EXP 	window1: recordFrameIntervals = False
+11.4500 	EXP 	window1: recordFrameIntervals = True
+11.6336 	EXP 	Screen (0) actual frame rate measured at 59.97Hz
+11.6337 	EXP 	window1: recordFrameIntervals = False
+14.2592 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-0.2549,  0.2392,  0.2549]), fillColorSpace='rgb', fillRGB=array([-0.2549,  0.2392,  0.2549]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.2616 	EXP 	Created line1 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='line1', opacity=1.0, ori=90.0, pos=array([-150.,    0.]), size=array([100.,  10.]), units='pix', vertices=ndarray(...), win=Window(...))
+14.2635 	EXP 	Created line2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='line2', opacity=1.0, ori=90.0, pos=array([-50.,   0.]), size=array([100.,  10.]), units='pix', vertices=ndarray(...), win=Window(...))
+14.2653 	EXP 	Created line3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='line3', opacity=1.0, ori=90.0, pos=array([50.,  0.]), size=array([100.,  10.]), units='pix', vertices=ndarray(...), win=Window(...))
+14.2669 	EXP 	Created line4 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='line4', opacity=1.0, ori=90.0, pos=array([150.,   0.]), size=array([100.,  10.]), units='pix', vertices=ndarray(...), win=Window(...))
+14.2687 	EXP 	Created probe = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='probe', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.2706 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-0.2549,  0.2392,  0.2549]), fillColorSpace='rgb', fillRGB=array([-0.2549,  0.2392,  0.2549]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.2722 	EXP 	Created line1 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='line1', opacity=1.0, ori=90.0, pos=array([-150.,    0.]), size=array([100.,  10.]), units='pix', vertices=ndarray(...), win=Window(...))
+14.2741 	EXP 	Created line2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='line2', opacity=1.0, ori=90.0, pos=array([-50.,   0.]), size=array([100.,  10.]), units='pix', vertices=ndarray(...), win=Window(...))
+14.2758 	EXP 	Created line3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='line3', opacity=1.0, ori=90.0, pos=array([50.,  0.]), size=array([100.,  10.]), units='pix', vertices=ndarray(...), win=Window(...))
+14.2774 	EXP 	Created line4 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='line4', opacity=1.0, ori=90.0, pos=array([150.,   0.]), size=array([100.,  10.]), units='pix', vertices=ndarray(...), win=Window(...))
+14.2791 	EXP 	Created probe = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='probe', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.2830 	EXP 	Imported C:/Users/Admin/Downloads/sequence_con - Sheet1.csv as conditions, 4 conditions, 2 params
+14.2846 	EXP 	Created sequence: sequential, trialTypes=4, nReps=12, seed=None
+14.2851 	EXP 	New trial (rep=0, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+14.2999 	EXP 	fixation: autoDraw = True
+15.2823 	EXP 	line1: autoDraw = True
+15.2823 	EXP 	line2: autoDraw = True
+15.2823 	EXP 	line3: autoDraw = True
+15.2823 	EXP 	line4: autoDraw = True
+15.2991 	EXP 	fixation: autoDraw = False
+16.2821 	EXP 	probe: autoDraw = True
+17.1753 	DATA 	Keypress: x
+17.1859 	EXP 	New trial (rep=0, index=1): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+17.1987 	EXP 	fixation: autoDraw = False
+17.1987 	EXP 	line1: autoDraw = False
+17.1987 	EXP 	line2: autoDraw = False
+17.1987 	EXP 	line3: autoDraw = False
+17.1987 	EXP 	line4: autoDraw = False
+17.1987 	EXP 	probe: autoDraw = False
+17.1987 	EXP 	fixation: autoDraw = True
+18.1986 	EXP 	fixation: autoDraw = False
+18.1986 	EXP 	line1: autoDraw = True
+18.1986 	EXP 	line2: autoDraw = True
+18.1986 	EXP 	line3: autoDraw = True
+18.1986 	EXP 	line4: autoDraw = True
+19.1983 	EXP 	probe: autoDraw = True
+20.0731 	DATA 	Keypress: v
+20.0842 	EXP 	New trial (rep=0, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+20.0984 	EXP 	fixation: autoDraw = False
+20.0984 	EXP 	line1: autoDraw = False
+20.0984 	EXP 	line2: autoDraw = False
+20.0984 	EXP 	line3: autoDraw = False
+20.0984 	EXP 	line4: autoDraw = False
+20.0984 	EXP 	probe: autoDraw = False
+20.0984 	EXP 	fixation: autoDraw = True
+21.0983 	EXP 	fixation: autoDraw = False
+21.0983 	EXP 	line1: autoDraw = True
+21.0983 	EXP 	line2: autoDraw = True
+21.0983 	EXP 	line3: autoDraw = True
+21.0983 	EXP 	line4: autoDraw = True
+22.0981 	EXP 	probe: autoDraw = True
+22.7561 	DATA 	Keypress: c
+22.7672 	EXP 	New trial (rep=0, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+22.7814 	EXP 	fixation: autoDraw = False
+22.7814 	EXP 	line1: autoDraw = False
+22.7814 	EXP 	line2: autoDraw = False
+22.7814 	EXP 	line3: autoDraw = False
+22.7814 	EXP 	line4: autoDraw = False
+22.7814 	EXP 	probe: autoDraw = False
+22.7814 	EXP 	fixation: autoDraw = True
+23.7813 	EXP 	fixation: autoDraw = False
+23.7813 	EXP 	line1: autoDraw = True
+23.7813 	EXP 	line2: autoDraw = True
+23.7813 	EXP 	line3: autoDraw = True
+23.7813 	EXP 	line4: autoDraw = True
+24.7811 	EXP 	probe: autoDraw = True
+25.5559 	DATA 	Keypress: z
+25.5670 	EXP 	New trial (rep=1, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+25.5809 	EXP 	fixation: autoDraw = False
+25.5809 	EXP 	line1: autoDraw = False
+25.5809 	EXP 	line2: autoDraw = False
+25.5809 	EXP 	line3: autoDraw = False
+25.5809 	EXP 	line4: autoDraw = False
+25.5809 	EXP 	probe: autoDraw = False
+25.5809 	EXP 	fixation: autoDraw = True
+26.5809 	EXP 	fixation: autoDraw = False
+26.5809 	EXP 	line1: autoDraw = True
+26.5809 	EXP 	line2: autoDraw = True
+26.5809 	EXP 	line3: autoDraw = True
+26.5809 	EXP 	line4: autoDraw = True
+27.5806 	EXP 	probe: autoDraw = True
+28.0890 	DATA 	Keypress: x
+28.1002 	EXP 	New trial (rep=1, index=1): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+28.1139 	EXP 	fixation: autoDraw = False
+28.1139 	EXP 	line1: autoDraw = False
+28.1139 	EXP 	line2: autoDraw = False
+28.1139 	EXP 	line3: autoDraw = False
+28.1139 	EXP 	line4: autoDraw = False
+28.1139 	EXP 	probe: autoDraw = False
+28.1139 	EXP 	fixation: autoDraw = True
+29.1141 	EXP 	fixation: autoDraw = False
+29.1141 	EXP 	line1: autoDraw = True
+29.1141 	EXP 	line2: autoDraw = True
+29.1141 	EXP 	line3: autoDraw = True
+29.1141 	EXP 	line4: autoDraw = True
+30.1137 	EXP 	probe: autoDraw = True
+30.4995 	EXP 	New trial (rep=1, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+30.5024 	DATA 	Keypress: v
+30.5135 	EXP 	fixation: autoDraw = False
+30.5135 	EXP 	line1: autoDraw = False
+30.5135 	EXP 	line2: autoDraw = False
+30.5135 	EXP 	line3: autoDraw = False
+30.5135 	EXP 	line4: autoDraw = False
+30.5135 	EXP 	probe: autoDraw = False
+30.5135 	EXP 	fixation: autoDraw = True
+31.5137 	EXP 	fixation: autoDraw = False
+31.5137 	EXP 	line1: autoDraw = True
+31.5137 	EXP 	line2: autoDraw = True
+31.5137 	EXP 	line3: autoDraw = True
+31.5137 	EXP 	line4: autoDraw = True
+32.5134 	EXP 	probe: autoDraw = True
+33.2382 	DATA 	Keypress: c
+33.2492 	EXP 	New trial (rep=1, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+33.2632 	EXP 	fixation: autoDraw = False
+33.2632 	EXP 	line1: autoDraw = False
+33.2632 	EXP 	line2: autoDraw = False
+33.2632 	EXP 	line3: autoDraw = False
+33.2632 	EXP 	line4: autoDraw = False
+33.2632 	EXP 	probe: autoDraw = False
+33.2632 	EXP 	fixation: autoDraw = True
+34.2630 	EXP 	fixation: autoDraw = False
+34.2630 	EXP 	line1: autoDraw = True
+34.2630 	EXP 	line2: autoDraw = True
+34.2630 	EXP 	line3: autoDraw = True
+34.2630 	EXP 	line4: autoDraw = True
+35.2630 	EXP 	probe: autoDraw = True
+36.2822 	EXP 	New trial (rep=2, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+36.2851 	DATA 	Keypress: z
+36.2961 	EXP 	fixation: autoDraw = False
+36.2961 	EXP 	line1: autoDraw = False
+36.2961 	EXP 	line2: autoDraw = False
+36.2961 	EXP 	line3: autoDraw = False
+36.2961 	EXP 	line4: autoDraw = False
+36.2961 	EXP 	probe: autoDraw = False
+36.2961 	EXP 	fixation: autoDraw = True
+37.2961 	EXP 	fixation: autoDraw = False
+37.2961 	EXP 	line1: autoDraw = True
+37.2961 	EXP 	line2: autoDraw = True
+37.2961 	EXP 	line3: autoDraw = True
+37.2961 	EXP 	line4: autoDraw = True
+38.2960 	EXP 	probe: autoDraw = True
+39.3379 	DATA 	Keypress: x
+39.3483 	EXP 	New trial (rep=2, index=1): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+39.3625 	EXP 	fixation: autoDraw = False
+39.3625 	EXP 	line1: autoDraw = False
+39.3625 	EXP 	line2: autoDraw = False
+39.3625 	EXP 	line3: autoDraw = False
+39.3625 	EXP 	line4: autoDraw = False
+39.3625 	EXP 	probe: autoDraw = False
+39.3625 	EXP 	fixation: autoDraw = True
+40.3627 	EXP 	fixation: autoDraw = False
+40.3627 	EXP 	line1: autoDraw = True
+40.3627 	EXP 	line2: autoDraw = True
+40.3627 	EXP 	line3: autoDraw = True
+40.3627 	EXP 	line4: autoDraw = True
+41.3623 	EXP 	probe: autoDraw = True
+42.4368 	DATA 	Keypress: v
+42.4480 	EXP 	New trial (rep=2, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+42.4620 	EXP 	fixation: autoDraw = False
+42.4620 	EXP 	line1: autoDraw = False
+42.4620 	EXP 	line2: autoDraw = False
+42.4620 	EXP 	line3: autoDraw = False
+42.4620 	EXP 	line4: autoDraw = False
+42.4620 	EXP 	probe: autoDraw = False
+42.4620 	EXP 	fixation: autoDraw = True
+43.4622 	EXP 	fixation: autoDraw = False
+43.4622 	EXP 	line1: autoDraw = True
+43.4622 	EXP 	line2: autoDraw = True
+43.4622 	EXP 	line3: autoDraw = True
+43.4622 	EXP 	line4: autoDraw = True
+44.4619 	EXP 	probe: autoDraw = True
+47.2142 	EXP 	New trial (rep=2, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+47.2172 	DATA 	Keypress: c
+47.2282 	EXP 	fixation: autoDraw = False
+47.2282 	EXP 	line1: autoDraw = False
+47.2282 	EXP 	line2: autoDraw = False
+47.2282 	EXP 	line3: autoDraw = False
+47.2282 	EXP 	line4: autoDraw = False
+47.2282 	EXP 	probe: autoDraw = False
+47.2282 	EXP 	fixation: autoDraw = True
+48.2283 	EXP 	fixation: autoDraw = False
+48.2283 	EXP 	line1: autoDraw = True
+48.2283 	EXP 	line2: autoDraw = True
+48.2283 	EXP 	line3: autoDraw = True
+48.2283 	EXP 	line4: autoDraw = True
+49.2280 	EXP 	probe: autoDraw = True
+50.0638 	EXP 	New trial (rep=3, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+50.0667 	DATA 	Keypress: z
+50.0778 	EXP 	fixation: autoDraw = False
+50.0778 	EXP 	line1: autoDraw = False
+50.0778 	EXP 	line2: autoDraw = False
+50.0778 	EXP 	line3: autoDraw = False
+50.0778 	EXP 	line4: autoDraw = False
+50.0778 	EXP 	probe: autoDraw = False
+50.0778 	EXP 	fixation: autoDraw = True
+51.0779 	EXP 	fixation: autoDraw = False
+51.0779 	EXP 	line1: autoDraw = True
+51.0779 	EXP 	line2: autoDraw = True
+51.0779 	EXP 	line3: autoDraw = True
+51.0779 	EXP 	line4: autoDraw = True
+52.0775 	EXP 	probe: autoDraw = True
+52.8187 	DATA 	Keypress: x
+52.8300 	EXP 	New trial (rep=3, index=1): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+52.8442 	EXP 	fixation: autoDraw = False
+52.8442 	EXP 	line1: autoDraw = False
+52.8442 	EXP 	line2: autoDraw = False
+52.8442 	EXP 	line3: autoDraw = False
+52.8442 	EXP 	line4: autoDraw = False
+52.8442 	EXP 	probe: autoDraw = False
+52.8442 	EXP 	fixation: autoDraw = True
+53.8442 	EXP 	fixation: autoDraw = False
+53.8442 	EXP 	line1: autoDraw = True
+53.8442 	EXP 	line2: autoDraw = True
+53.8442 	EXP 	line3: autoDraw = True
+53.8442 	EXP 	line4: autoDraw = True
+54.8438 	EXP 	probe: autoDraw = True
+55.6964 	EXP 	New trial (rep=3, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+55.6993 	DATA 	Keypress: c
+55.7105 	EXP 	fixation: autoDraw = False
+55.7105 	EXP 	line1: autoDraw = False
+55.7105 	EXP 	line2: autoDraw = False
+55.7105 	EXP 	line3: autoDraw = False
+55.7105 	EXP 	line4: autoDraw = False
+55.7105 	EXP 	probe: autoDraw = False
+55.7105 	EXP 	fixation: autoDraw = True
+56.7104 	EXP 	fixation: autoDraw = False
+56.7104 	EXP 	line1: autoDraw = True
+56.7104 	EXP 	line2: autoDraw = True
+56.7104 	EXP 	line3: autoDraw = True
+56.7104 	EXP 	line4: autoDraw = True
+57.7102 	EXP 	probe: autoDraw = True
+58.4182 	DATA 	Keypress: c
+58.4293 	EXP 	New trial (rep=3, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+58.4434 	EXP 	fixation: autoDraw = False
+58.4434 	EXP 	line1: autoDraw = False
+58.4434 	EXP 	line2: autoDraw = False
+58.4434 	EXP 	line3: autoDraw = False
+58.4434 	EXP 	line4: autoDraw = False
+58.4434 	EXP 	probe: autoDraw = False
+58.4434 	EXP 	fixation: autoDraw = True
+59.4435 	EXP 	fixation: autoDraw = False
+59.4435 	EXP 	line1: autoDraw = True
+59.4435 	EXP 	line2: autoDraw = True
+59.4435 	EXP 	line3: autoDraw = True
+59.4435 	EXP 	line4: autoDraw = True
+60.4431 	EXP 	probe: autoDraw = True
+61.2179 	DATA 	Keypress: z
+61.2290 	EXP 	New trial (rep=4, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+61.2431 	EXP 	fixation: autoDraw = False
+61.2431 	EXP 	line1: autoDraw = False
+61.2431 	EXP 	line2: autoDraw = False
+61.2431 	EXP 	line3: autoDraw = False
+61.2431 	EXP 	line4: autoDraw = False
+61.2431 	EXP 	probe: autoDraw = False
+61.2431 	EXP 	fixation: autoDraw = True
+62.2431 	EXP 	fixation: autoDraw = False
+62.2431 	EXP 	line1: autoDraw = True
+62.2431 	EXP 	line2: autoDraw = True
+62.2431 	EXP 	line3: autoDraw = True
+62.2431 	EXP 	line4: autoDraw = True
+63.2428 	EXP 	probe: autoDraw = True
+64.1186 	DATA 	Keypress: x
+64.1297 	EXP 	New trial (rep=4, index=1): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+64.1425 	EXP 	fixation: autoDraw = False
+64.1425 	EXP 	line1: autoDraw = False
+64.1425 	EXP 	line2: autoDraw = False
+64.1425 	EXP 	line3: autoDraw = False
+64.1425 	EXP 	line4: autoDraw = False
+64.1425 	EXP 	probe: autoDraw = False
+64.1425 	EXP 	fixation: autoDraw = True
+65.1427 	EXP 	fixation: autoDraw = False
+65.1427 	EXP 	line1: autoDraw = True
+65.1427 	EXP 	line2: autoDraw = True
+65.1427 	EXP 	line3: autoDraw = True
+65.1427 	EXP 	line4: autoDraw = True
+66.1423 	EXP 	probe: autoDraw = True
+67.4782 	EXP 	New trial (rep=4, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+67.4811 	DATA 	Keypress: v
+67.4921 	EXP 	fixation: autoDraw = False
+67.4921 	EXP 	line1: autoDraw = False
+67.4921 	EXP 	line2: autoDraw = False
+67.4921 	EXP 	line3: autoDraw = False
+67.4921 	EXP 	line4: autoDraw = False
+67.4921 	EXP 	probe: autoDraw = False
+67.4921 	EXP 	fixation: autoDraw = True
+68.4925 	EXP 	fixation: autoDraw = False
+68.4925 	EXP 	line1: autoDraw = True
+68.4925 	EXP 	line2: autoDraw = True
+68.4925 	EXP 	line3: autoDraw = True
+68.4925 	EXP 	line4: autoDraw = True
+69.4921 	EXP 	probe: autoDraw = True
+70.4612 	EXP 	New trial (rep=4, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+70.4641 	DATA 	Keypress: c
+70.4751 	EXP 	fixation: autoDraw = False
+70.4751 	EXP 	line1: autoDraw = False
+70.4751 	EXP 	line2: autoDraw = False
+70.4751 	EXP 	line3: autoDraw = False
+70.4751 	EXP 	line4: autoDraw = False
+70.4751 	EXP 	probe: autoDraw = False
+70.4751 	EXP 	fixation: autoDraw = True
+71.4755 	EXP 	fixation: autoDraw = False
+71.4755 	EXP 	line1: autoDraw = True
+71.4755 	EXP 	line2: autoDraw = True
+71.4755 	EXP 	line3: autoDraw = True
+71.4755 	EXP 	line4: autoDraw = True
+72.4750 	EXP 	probe: autoDraw = True
+73.3444 	EXP 	New trial (rep=5, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+73.3477 	DATA 	Keypress: z
+73.3582 	EXP 	fixation: autoDraw = False
+73.3582 	EXP 	line1: autoDraw = False
+73.3582 	EXP 	line2: autoDraw = False
+73.3582 	EXP 	line3: autoDraw = False
+73.3582 	EXP 	line4: autoDraw = False
+73.3582 	EXP 	probe: autoDraw = False
+73.3582 	EXP 	fixation: autoDraw = True
+74.3580 	EXP 	fixation: autoDraw = False
+74.3580 	EXP 	line1: autoDraw = True
+74.3580 	EXP 	line2: autoDraw = True
+74.3580 	EXP 	line3: autoDraw = True
+74.3580 	EXP 	line4: autoDraw = True
+75.3580 	EXP 	probe: autoDraw = True
+76.2105 	EXP 	New trial (rep=5, index=1): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+76.2133 	DATA 	Keypress: x
+76.2244 	EXP 	fixation: autoDraw = False
+76.2244 	EXP 	line1: autoDraw = False
+76.2244 	EXP 	line2: autoDraw = False
+76.2244 	EXP 	line3: autoDraw = False
+76.2244 	EXP 	line4: autoDraw = False
+76.2244 	EXP 	probe: autoDraw = False
+76.2244 	EXP 	fixation: autoDraw = True
+77.2245 	EXP 	fixation: autoDraw = False
+77.2245 	EXP 	line1: autoDraw = True
+77.2245 	EXP 	line2: autoDraw = True
+77.2245 	EXP 	line3: autoDraw = True
+77.2245 	EXP 	line4: autoDraw = True
+78.2241 	EXP 	probe: autoDraw = True
+79.3100 	EXP 	New trial (rep=5, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+79.3129 	DATA 	Keypress: v
+79.3240 	EXP 	fixation: autoDraw = False
+79.3240 	EXP 	line1: autoDraw = False
+79.3240 	EXP 	line2: autoDraw = False
+79.3240 	EXP 	line3: autoDraw = False
+79.3240 	EXP 	line4: autoDraw = False
+79.3240 	EXP 	probe: autoDraw = False
+79.3240 	EXP 	fixation: autoDraw = True
+80.3241 	EXP 	fixation: autoDraw = False
+80.3241 	EXP 	line1: autoDraw = True
+80.3241 	EXP 	line2: autoDraw = True
+80.3241 	EXP 	line3: autoDraw = True
+80.3241 	EXP 	line4: autoDraw = True
+81.3238 	EXP 	probe: autoDraw = True
+83.4148 	DATA 	Keypress: c
+83.4261 	EXP 	New trial (rep=5, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+83.4402 	EXP 	fixation: autoDraw = False
+83.4402 	EXP 	line1: autoDraw = False
+83.4402 	EXP 	line2: autoDraw = False
+83.4402 	EXP 	line3: autoDraw = False
+83.4402 	EXP 	line4: autoDraw = False
+83.4402 	EXP 	probe: autoDraw = False
+83.4402 	EXP 	fixation: autoDraw = True
+84.4403 	EXP 	fixation: autoDraw = False
+84.4403 	EXP 	line1: autoDraw = True
+84.4403 	EXP 	line2: autoDraw = True
+84.4403 	EXP 	line3: autoDraw = True
+84.4403 	EXP 	line4: autoDraw = True
+85.4399 	EXP 	probe: autoDraw = True
+86.5813 	DATA 	Keypress: z
+86.5924 	EXP 	New trial (rep=6, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+86.6063 	EXP 	fixation: autoDraw = False
+86.6063 	EXP 	line1: autoDraw = False
+86.6063 	EXP 	line2: autoDraw = False
+86.6063 	EXP 	line3: autoDraw = False
+86.6063 	EXP 	line4: autoDraw = False
+86.6063 	EXP 	probe: autoDraw = False
+86.6063 	EXP 	fixation: autoDraw = True
+87.6065 	EXP 	fixation: autoDraw = False
+87.6065 	EXP 	line1: autoDraw = True
+87.6065 	EXP 	line2: autoDraw = True
+87.6065 	EXP 	line3: autoDraw = True
+87.6065 	EXP 	line4: autoDraw = True
+88.6062 	EXP 	probe: autoDraw = True
+89.2811 	DATA 	Keypress: x
+89.2922 	EXP 	New trial (rep=6, index=1): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+89.3062 	EXP 	fixation: autoDraw = False
+89.3062 	EXP 	line1: autoDraw = False
+89.3062 	EXP 	line2: autoDraw = False
+89.3062 	EXP 	line3: autoDraw = False
+89.3062 	EXP 	line4: autoDraw = False
+89.3062 	EXP 	probe: autoDraw = False
+89.3062 	EXP 	fixation: autoDraw = True
+90.3062 	EXP 	fixation: autoDraw = False
+90.3062 	EXP 	line1: autoDraw = True
+90.3062 	EXP 	line2: autoDraw = True
+90.3062 	EXP 	line3: autoDraw = True
+90.3062 	EXP 	line4: autoDraw = True
+91.3058 	EXP 	probe: autoDraw = True
+92.5252 	EXP 	New trial (rep=6, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+92.5282 	DATA 	Keypress: v
+92.5390 	EXP 	fixation: autoDraw = False
+92.5390 	EXP 	line1: autoDraw = False
+92.5390 	EXP 	line2: autoDraw = False
+92.5390 	EXP 	line3: autoDraw = False
+92.5390 	EXP 	line4: autoDraw = False
+92.5390 	EXP 	probe: autoDraw = False
+92.5390 	EXP 	fixation: autoDraw = True
+93.5392 	EXP 	fixation: autoDraw = False
+93.5392 	EXP 	line1: autoDraw = True
+93.5392 	EXP 	line2: autoDraw = True
+93.5392 	EXP 	line3: autoDraw = True
+93.5392 	EXP 	line4: autoDraw = True
+94.5388 	EXP 	probe: autoDraw = True
+95.2415 	EXP 	New trial (rep=6, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+95.2444 	DATA 	Keypress: c
+95.2553 	EXP 	fixation: autoDraw = False
+95.2553 	EXP 	line1: autoDraw = False
+95.2553 	EXP 	line2: autoDraw = False
+95.2553 	EXP 	line3: autoDraw = False
+95.2553 	EXP 	line4: autoDraw = False
+95.2553 	EXP 	probe: autoDraw = False
+95.2553 	EXP 	fixation: autoDraw = True
+96.2556 	EXP 	fixation: autoDraw = False
+96.2556 	EXP 	line1: autoDraw = True
+96.2556 	EXP 	line2: autoDraw = True
+96.2556 	EXP 	line3: autoDraw = True
+96.2556 	EXP 	line4: autoDraw = True
+97.2550 	EXP 	probe: autoDraw = True
+97.6743 	EXP 	New trial (rep=7, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+97.6771 	DATA 	Keypress: z
+97.6883 	EXP 	fixation: autoDraw = False
+97.6883 	EXP 	line1: autoDraw = False
+97.6883 	EXP 	line2: autoDraw = False
+97.6883 	EXP 	line3: autoDraw = False
+97.6883 	EXP 	line4: autoDraw = False
+97.6883 	EXP 	probe: autoDraw = False
+97.6883 	EXP 	fixation: autoDraw = True
+98.6885 	EXP 	fixation: autoDraw = False
+98.6885 	EXP 	line1: autoDraw = True
+98.6885 	EXP 	line2: autoDraw = True
+98.6885 	EXP 	line3: autoDraw = True
+98.6885 	EXP 	line4: autoDraw = True
+99.6881 	EXP 	probe: autoDraw = True
+100.6240 	EXP 	New trial (rep=7, index=1): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+100.6267 	DATA 	Keypress: x
+100.6381 	EXP 	fixation: autoDraw = False
+100.6381 	EXP 	line1: autoDraw = False
+100.6381 	EXP 	line2: autoDraw = False
+100.6381 	EXP 	line3: autoDraw = False
+100.6381 	EXP 	line4: autoDraw = False
+100.6381 	EXP 	probe: autoDraw = False
+100.6381 	EXP 	fixation: autoDraw = True
+101.6381 	EXP 	fixation: autoDraw = False
+101.6381 	EXP 	line1: autoDraw = True
+101.6381 	EXP 	line2: autoDraw = True
+101.6381 	EXP 	line3: autoDraw = True
+101.6381 	EXP 	line4: autoDraw = True
+102.6378 	EXP 	probe: autoDraw = True
+103.2070 	EXP 	New trial (rep=7, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+103.2099 	DATA 	Keypress: v
+103.2211 	EXP 	fixation: autoDraw = False
+103.2211 	EXP 	line1: autoDraw = False
+103.2211 	EXP 	line2: autoDraw = False
+103.2211 	EXP 	line3: autoDraw = False
+103.2211 	EXP 	line4: autoDraw = False
+103.2211 	EXP 	probe: autoDraw = False
+103.2211 	EXP 	fixation: autoDraw = True
+104.2211 	EXP 	fixation: autoDraw = False
+104.2211 	EXP 	line1: autoDraw = True
+104.2211 	EXP 	line2: autoDraw = True
+104.2211 	EXP 	line3: autoDraw = True
+104.2211 	EXP 	line4: autoDraw = True
+105.2209 	EXP 	probe: autoDraw = True
+105.9955 	DATA 	Keypress: c
+106.0065 	EXP 	New trial (rep=7, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+106.0207 	EXP 	fixation: autoDraw = False
+106.0207 	EXP 	line1: autoDraw = False
+106.0207 	EXP 	line2: autoDraw = False
+106.0207 	EXP 	line3: autoDraw = False
+106.0207 	EXP 	line4: autoDraw = False
+106.0207 	EXP 	probe: autoDraw = False
+106.0207 	EXP 	fixation: autoDraw = True
+107.0208 	EXP 	fixation: autoDraw = False
+107.0208 	EXP 	line1: autoDraw = True
+107.0208 	EXP 	line2: autoDraw = True
+107.0208 	EXP 	line3: autoDraw = True
+107.0208 	EXP 	line4: autoDraw = True
+108.0205 	EXP 	probe: autoDraw = True
+108.5064 	EXP 	New trial (rep=8, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+108.5092 	DATA 	Keypress: z
+108.5204 	EXP 	fixation: autoDraw = False
+108.5204 	EXP 	line1: autoDraw = False
+108.5204 	EXP 	line2: autoDraw = False
+108.5204 	EXP 	line3: autoDraw = False
+108.5204 	EXP 	line4: autoDraw = False
+108.5204 	EXP 	probe: autoDraw = False
+108.5204 	EXP 	fixation: autoDraw = True
+109.5203 	EXP 	fixation: autoDraw = False
+109.5203 	EXP 	line1: autoDraw = True
+109.5203 	EXP 	line2: autoDraw = True
+109.5203 	EXP 	line3: autoDraw = True
+109.5203 	EXP 	line4: autoDraw = True
+110.5202 	EXP 	probe: autoDraw = True
+110.9282 	DATA 	Keypress: x
+110.9392 	EXP 	New trial (rep=8, index=1): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+110.9532 	EXP 	fixation: autoDraw = False
+110.9532 	EXP 	line1: autoDraw = False
+110.9532 	EXP 	line2: autoDraw = False
+110.9532 	EXP 	line3: autoDraw = False
+110.9532 	EXP 	line4: autoDraw = False
+110.9532 	EXP 	probe: autoDraw = False
+110.9532 	EXP 	fixation: autoDraw = True
+111.9535 	EXP 	fixation: autoDraw = False
+111.9535 	EXP 	line1: autoDraw = True
+111.9535 	EXP 	line2: autoDraw = True
+111.9535 	EXP 	line3: autoDraw = True
+111.9535 	EXP 	line4: autoDraw = True
+112.9532 	EXP 	probe: autoDraw = True
+113.5611 	DATA 	Keypress: v
+113.5722 	EXP 	New trial (rep=8, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+113.5864 	EXP 	fixation: autoDraw = False
+113.5864 	EXP 	line1: autoDraw = False
+113.5864 	EXP 	line2: autoDraw = False
+113.5864 	EXP 	line3: autoDraw = False
+113.5864 	EXP 	line4: autoDraw = False
+113.5864 	EXP 	probe: autoDraw = False
+113.5864 	EXP 	fixation: autoDraw = True
+114.5865 	EXP 	fixation: autoDraw = False
+114.5865 	EXP 	line1: autoDraw = True
+114.5865 	EXP 	line2: autoDraw = True
+114.5865 	EXP 	line3: autoDraw = True
+114.5865 	EXP 	line4: autoDraw = True
+115.5860 	EXP 	probe: autoDraw = True
+116.3221 	EXP 	New trial (rep=8, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+116.3256 	DATA 	Keypress: c
+116.3359 	EXP 	fixation: autoDraw = False
+116.3359 	EXP 	line1: autoDraw = False
+116.3359 	EXP 	line2: autoDraw = False
+116.3359 	EXP 	line3: autoDraw = False
+116.3359 	EXP 	line4: autoDraw = False
+116.3359 	EXP 	probe: autoDraw = False
+116.3359 	EXP 	fixation: autoDraw = True
+117.3360 	EXP 	fixation: autoDraw = False
+117.3360 	EXP 	line1: autoDraw = True
+117.3360 	EXP 	line2: autoDraw = True
+117.3360 	EXP 	line3: autoDraw = True
+117.3360 	EXP 	line4: autoDraw = True
+118.3356 	EXP 	probe: autoDraw = True
+118.9051 	EXP 	New trial (rep=9, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+118.9080 	DATA 	Keypress: z
+118.9189 	EXP 	fixation: autoDraw = False
+118.9189 	EXP 	line1: autoDraw = False
+118.9189 	EXP 	line2: autoDraw = False
+118.9189 	EXP 	line3: autoDraw = False
+118.9189 	EXP 	line4: autoDraw = False
+118.9189 	EXP 	probe: autoDraw = False
+118.9189 	EXP 	fixation: autoDraw = True
+119.9192 	EXP 	fixation: autoDraw = False
+119.9192 	EXP 	line1: autoDraw = True
+119.9192 	EXP 	line2: autoDraw = True
+119.9192 	EXP 	line3: autoDraw = True
+119.9192 	EXP 	line4: autoDraw = True
+120.9188 	EXP 	probe: autoDraw = True
+121.2879 	EXP 	New trial (rep=9, index=1): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+121.2907 	DATA 	Keypress: x
+121.3021 	EXP 	fixation: autoDraw = False
+121.3021 	EXP 	line1: autoDraw = False
+121.3021 	EXP 	line2: autoDraw = False
+121.3021 	EXP 	line3: autoDraw = False
+121.3021 	EXP 	line4: autoDraw = False
+121.3021 	EXP 	probe: autoDraw = False
+121.3021 	EXP 	fixation: autoDraw = True
+122.3021 	EXP 	fixation: autoDraw = False
+122.3021 	EXP 	line1: autoDraw = True
+122.3021 	EXP 	line2: autoDraw = True
+122.3021 	EXP 	line3: autoDraw = True
+122.3021 	EXP 	line4: autoDraw = True
+123.3017 	EXP 	probe: autoDraw = True
+123.8265 	DATA 	Keypress: v
+123.8377 	EXP 	New trial (rep=9, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+123.8517 	EXP 	fixation: autoDraw = False
+123.8517 	EXP 	line1: autoDraw = False
+123.8517 	EXP 	line2: autoDraw = False
+123.8517 	EXP 	line3: autoDraw = False
+123.8517 	EXP 	line4: autoDraw = False
+123.8517 	EXP 	probe: autoDraw = False
+123.8517 	EXP 	fixation: autoDraw = True
+124.8518 	EXP 	fixation: autoDraw = False
+124.8518 	EXP 	line1: autoDraw = True
+124.8518 	EXP 	line2: autoDraw = True
+124.8518 	EXP 	line3: autoDraw = True
+124.8518 	EXP 	line4: autoDraw = True
+125.8516 	EXP 	probe: autoDraw = True
+126.8099 	DATA 	Keypress: c
+126.8213 	EXP 	New trial (rep=9, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+126.8347 	EXP 	fixation: autoDraw = False
+126.8347 	EXP 	line1: autoDraw = False
+126.8347 	EXP 	line2: autoDraw = False
+126.8347 	EXP 	line3: autoDraw = False
+126.8347 	EXP 	line4: autoDraw = False
+126.8347 	EXP 	probe: autoDraw = False
+126.8347 	EXP 	fixation: autoDraw = True
+127.8347 	EXP 	fixation: autoDraw = False
+127.8347 	EXP 	line1: autoDraw = True
+127.8347 	EXP 	line2: autoDraw = True
+127.8347 	EXP 	line3: autoDraw = True
+127.8347 	EXP 	line4: autoDraw = True
+128.8344 	EXP 	probe: autoDraw = True
+129.3422 	DATA 	Keypress: z
+129.3535 	EXP 	New trial (rep=10, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+129.3677 	EXP 	fixation: autoDraw = False
+129.3677 	EXP 	line1: autoDraw = False
+129.3677 	EXP 	line2: autoDraw = False
+129.3677 	EXP 	line3: autoDraw = False
+129.3677 	EXP 	line4: autoDraw = False
+129.3677 	EXP 	probe: autoDraw = False
+129.3677 	EXP 	fixation: autoDraw = True
+130.3676 	EXP 	fixation: autoDraw = False
+130.3676 	EXP 	line1: autoDraw = True
+130.3676 	EXP 	line2: autoDraw = True
+130.3676 	EXP 	line3: autoDraw = True
+130.3676 	EXP 	line4: autoDraw = True
+131.3674 	EXP 	probe: autoDraw = True
+132.0589 	DATA 	Keypress: x
+132.0698 	EXP 	New trial (rep=10, index=1): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+132.0839 	EXP 	fixation: autoDraw = False
+132.0839 	EXP 	line1: autoDraw = False
+132.0839 	EXP 	line2: autoDraw = False
+132.0839 	EXP 	line3: autoDraw = False
+132.0839 	EXP 	line4: autoDraw = False
+132.0839 	EXP 	probe: autoDraw = False
+132.0839 	EXP 	fixation: autoDraw = True
+133.0841 	EXP 	fixation: autoDraw = False
+133.0841 	EXP 	line1: autoDraw = True
+133.0841 	EXP 	line2: autoDraw = True
+133.0841 	EXP 	line3: autoDraw = True
+133.0841 	EXP 	line4: autoDraw = True
+134.0838 	EXP 	probe: autoDraw = True
+134.5254 	DATA 	Keypress: v
+134.5363 	EXP 	New trial (rep=10, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+134.5503 	EXP 	fixation: autoDraw = False
+134.5503 	EXP 	line1: autoDraw = False
+134.5503 	EXP 	line2: autoDraw = False
+134.5503 	EXP 	line3: autoDraw = False
+134.5503 	EXP 	line4: autoDraw = False
+134.5503 	EXP 	probe: autoDraw = False
+134.5503 	EXP 	fixation: autoDraw = True
+135.5504 	EXP 	fixation: autoDraw = False
+135.5504 	EXP 	line1: autoDraw = True
+135.5504 	EXP 	line2: autoDraw = True
+135.5504 	EXP 	line3: autoDraw = True
+135.5504 	EXP 	line4: autoDraw = True
+136.5501 	EXP 	probe: autoDraw = True
+137.0917 	DATA 	Keypress: c
+137.1026 	EXP 	New trial (rep=10, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+137.1168 	EXP 	fixation: autoDraw = False
+137.1168 	EXP 	line1: autoDraw = False
+137.1168 	EXP 	line2: autoDraw = False
+137.1168 	EXP 	line3: autoDraw = False
+137.1168 	EXP 	line4: autoDraw = False
+137.1168 	EXP 	probe: autoDraw = False
+137.1168 	EXP 	fixation: autoDraw = True
+138.1169 	EXP 	fixation: autoDraw = False
+138.1169 	EXP 	line1: autoDraw = True
+138.1169 	EXP 	line2: autoDraw = True
+138.1169 	EXP 	line3: autoDraw = True
+138.1169 	EXP 	line4: autoDraw = True
+139.1163 	EXP 	probe: autoDraw = True
+139.5746 	DATA 	Keypress: z
+139.5856 	EXP 	New trial (rep=11, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+139.5997 	EXP 	fixation: autoDraw = False
+139.5997 	EXP 	line1: autoDraw = False
+139.5997 	EXP 	line2: autoDraw = False
+139.5997 	EXP 	line3: autoDraw = False
+139.5997 	EXP 	line4: autoDraw = False
+139.5997 	EXP 	probe: autoDraw = False
+139.5997 	EXP 	fixation: autoDraw = True
+140.5998 	EXP 	fixation: autoDraw = False
+140.5998 	EXP 	line1: autoDraw = True
+140.5998 	EXP 	line2: autoDraw = True
+140.5998 	EXP 	line3: autoDraw = True
+140.5998 	EXP 	line4: autoDraw = True
+141.5995 	EXP 	probe: autoDraw = True
+142.0243 	DATA 	Keypress: x
+142.0353 	EXP 	New trial (rep=11, index=1): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+142.0494 	EXP 	fixation: autoDraw = False
+142.0494 	EXP 	line1: autoDraw = False
+142.0494 	EXP 	line2: autoDraw = False
+142.0494 	EXP 	line3: autoDraw = False
+142.0494 	EXP 	line4: autoDraw = False
+142.0494 	EXP 	probe: autoDraw = False
+142.0494 	EXP 	fixation: autoDraw = True
+143.0494 	EXP 	fixation: autoDraw = False
+143.0494 	EXP 	line1: autoDraw = True
+143.0494 	EXP 	line2: autoDraw = True
+143.0494 	EXP 	line3: autoDraw = True
+143.0494 	EXP 	line4: autoDraw = True
+144.0491 	EXP 	probe: autoDraw = True
+144.6238 	DATA 	Keypress: v
+144.6351 	EXP 	New trial (rep=11, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+144.6491 	EXP 	fixation: autoDraw = False
+144.6491 	EXP 	line1: autoDraw = False
+144.6491 	EXP 	line2: autoDraw = False
+144.6491 	EXP 	line3: autoDraw = False
+144.6491 	EXP 	line4: autoDraw = False
+144.6491 	EXP 	probe: autoDraw = False
+144.6491 	EXP 	fixation: autoDraw = True
+145.6492 	EXP 	fixation: autoDraw = False
+145.6492 	EXP 	line1: autoDraw = True
+145.6492 	EXP 	line2: autoDraw = True
+145.6492 	EXP 	line3: autoDraw = True
+145.6492 	EXP 	line4: autoDraw = True
+146.6487 	EXP 	probe: autoDraw = True
+147.3681 	EXP 	New trial (rep=11, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+147.3710 	DATA 	Keypress: c
+147.3821 	EXP 	fixation: autoDraw = False
+147.3821 	EXP 	line1: autoDraw = False
+147.3821 	EXP 	line2: autoDraw = False
+147.3821 	EXP 	line3: autoDraw = False
+147.3821 	EXP 	line4: autoDraw = False
+147.3821 	EXP 	probe: autoDraw = False
+147.3821 	EXP 	fixation: autoDraw = True
+148.3821 	EXP 	fixation: autoDraw = False
+148.3821 	EXP 	line1: autoDraw = True
+148.3821 	EXP 	line2: autoDraw = True
+148.3821 	EXP 	line3: autoDraw = True
+148.3821 	EXP 	line4: autoDraw = True
+149.3817 	EXP 	probe: autoDraw = True
+149.8067 	EXP 	Imported C:/Users/Admin/Downloads/sequence_con - Sheet1.csv as conditions, 4 conditions, 2 params
+149.8095 	EXP 	Created sequence: fullRandom, trialTypes=4, nReps=12, seed=None
+149.8102 	EXP 	New trial (rep=0, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+149.8142 	DATA 	Keypress: z
+149.8172 	EXP 	fixation: autoDraw = False
+149.8172 	EXP 	line1: autoDraw = False
+149.8172 	EXP 	line2: autoDraw = False
+149.8172 	EXP 	line3: autoDraw = False
+149.8172 	EXP 	line4: autoDraw = False
+149.8172 	EXP 	probe: autoDraw = False
+149.8172 	EXP 	fixation: autoDraw = True
+150.8150 	EXP 	line1: autoDraw = True
+150.8150 	EXP 	line2: autoDraw = True
+150.8150 	EXP 	line3: autoDraw = True
+150.8150 	EXP 	line4: autoDraw = True
+150.8315 	EXP 	fixation: autoDraw = False
+151.8147 	EXP 	probe: autoDraw = True
+152.4343 	EXP 	New trial (rep=0, index=1): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+152.4371 	DATA 	Keypress: x
+152.4480 	EXP 	fixation: autoDraw = False
+152.4480 	EXP 	line1: autoDraw = False
+152.4480 	EXP 	line2: autoDraw = False
+152.4480 	EXP 	line3: autoDraw = False
+152.4480 	EXP 	line4: autoDraw = False
+152.4480 	EXP 	probe: autoDraw = False
+152.4480 	EXP 	fixation: autoDraw = True
+153.4482 	EXP 	fixation: autoDraw = False
+153.4482 	EXP 	line1: autoDraw = True
+153.4482 	EXP 	line2: autoDraw = True
+153.4482 	EXP 	line3: autoDraw = True
+153.4482 	EXP 	line4: autoDraw = True
+154.4477 	EXP 	probe: autoDraw = True
+155.3338 	EXP 	New trial (rep=0, index=2): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+155.3366 	DATA 	Keypress: c
+155.3477 	EXP 	fixation: autoDraw = False
+155.3477 	EXP 	line1: autoDraw = False
+155.3477 	EXP 	line2: autoDraw = False
+155.3477 	EXP 	line3: autoDraw = False
+155.3477 	EXP 	line4: autoDraw = False
+155.3477 	EXP 	probe: autoDraw = False
+155.3477 	EXP 	fixation: autoDraw = True
+156.3477 	EXP 	fixation: autoDraw = False
+156.3477 	EXP 	line1: autoDraw = True
+156.3477 	EXP 	line2: autoDraw = True
+156.3477 	EXP 	line3: autoDraw = True
+156.3477 	EXP 	line4: autoDraw = True
+157.3474 	EXP 	probe: autoDraw = True
+157.8999 	EXP 	New trial (rep=0, index=3): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+157.9028 	DATA 	Keypress: v
+157.9140 	EXP 	fixation: autoDraw = False
+157.9140 	EXP 	line1: autoDraw = False
+157.9140 	EXP 	line2: autoDraw = False
+157.9140 	EXP 	line3: autoDraw = False
+157.9140 	EXP 	line4: autoDraw = False
+157.9140 	EXP 	probe: autoDraw = False
+157.9140 	EXP 	fixation: autoDraw = True
+158.9141 	EXP 	fixation: autoDraw = False
+158.9141 	EXP 	line1: autoDraw = True
+158.9141 	EXP 	line2: autoDraw = True
+158.9141 	EXP 	line3: autoDraw = True
+158.9141 	EXP 	line4: autoDraw = True
+159.9137 	EXP 	probe: autoDraw = True
+160.3996 	EXP 	New trial (rep=1, index=0): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+160.4024 	DATA 	Keypress: x
+160.4137 	EXP 	fixation: autoDraw = False
+160.4137 	EXP 	line1: autoDraw = False
+160.4137 	EXP 	line2: autoDraw = False
+160.4137 	EXP 	line3: autoDraw = False
+160.4137 	EXP 	line4: autoDraw = False
+160.4137 	EXP 	probe: autoDraw = False
+160.4137 	EXP 	fixation: autoDraw = True
+161.4138 	EXP 	fixation: autoDraw = False
+161.4138 	EXP 	line1: autoDraw = True
+161.4138 	EXP 	line2: autoDraw = True
+161.4138 	EXP 	line3: autoDraw = True
+161.4138 	EXP 	line4: autoDraw = True
+162.4135 	EXP 	probe: autoDraw = True
+163.1159 	EXP 	New trial (rep=1, index=1): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+163.1190 	DATA 	Keypress: v
+163.1301 	EXP 	fixation: autoDraw = False
+163.1301 	EXP 	line1: autoDraw = False
+163.1301 	EXP 	line2: autoDraw = False
+163.1301 	EXP 	line3: autoDraw = False
+163.1301 	EXP 	line4: autoDraw = False
+163.1301 	EXP 	probe: autoDraw = False
+163.1301 	EXP 	fixation: autoDraw = True
+164.1302 	EXP 	fixation: autoDraw = False
+164.1302 	EXP 	line1: autoDraw = True
+164.1302 	EXP 	line2: autoDraw = True
+164.1302 	EXP 	line3: autoDraw = True
+164.1302 	EXP 	line4: autoDraw = True
+165.1298 	EXP 	probe: autoDraw = True
+166.0044 	DATA 	Keypress: c
+166.0156 	EXP 	New trial (rep=1, index=2): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+166.0297 	EXP 	fixation: autoDraw = False
+166.0297 	EXP 	line1: autoDraw = False
+166.0297 	EXP 	line2: autoDraw = False
+166.0297 	EXP 	line3: autoDraw = False
+166.0297 	EXP 	line4: autoDraw = False
+166.0297 	EXP 	probe: autoDraw = False
+166.0297 	EXP 	fixation: autoDraw = True
+167.0298 	EXP 	fixation: autoDraw = False
+167.0298 	EXP 	line1: autoDraw = True
+167.0298 	EXP 	line2: autoDraw = True
+167.0298 	EXP 	line3: autoDraw = True
+167.0298 	EXP 	line4: autoDraw = True
+168.0293 	EXP 	probe: autoDraw = True
+168.9153 	EXP 	New trial (rep=1, index=3): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+168.9182 	DATA 	Keypress: z
+168.9293 	EXP 	fixation: autoDraw = False
+168.9293 	EXP 	line1: autoDraw = False
+168.9293 	EXP 	line2: autoDraw = False
+168.9293 	EXP 	line3: autoDraw = False
+168.9293 	EXP 	line4: autoDraw = False
+168.9293 	EXP 	probe: autoDraw = False
+168.9293 	EXP 	fixation: autoDraw = True
+169.9291 	EXP 	fixation: autoDraw = False
+169.9291 	EXP 	line1: autoDraw = True
+169.9291 	EXP 	line2: autoDraw = True
+169.9291 	EXP 	line3: autoDraw = True
+169.9291 	EXP 	line4: autoDraw = True
+170.9291 	EXP 	probe: autoDraw = True
+171.5316 	EXP 	New trial (rep=2, index=0): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+171.5345 	DATA 	Keypress: v
+171.5455 	EXP 	fixation: autoDraw = False
+171.5455 	EXP 	line1: autoDraw = False
+171.5455 	EXP 	line2: autoDraw = False
+171.5455 	EXP 	line3: autoDraw = False
+171.5455 	EXP 	line4: autoDraw = False
+171.5455 	EXP 	probe: autoDraw = False
+171.5455 	EXP 	fixation: autoDraw = True
+172.5457 	EXP 	fixation: autoDraw = False
+172.5457 	EXP 	line1: autoDraw = True
+172.5457 	EXP 	line2: autoDraw = True
+172.5457 	EXP 	line3: autoDraw = True
+172.5457 	EXP 	line4: autoDraw = True
+173.5453 	EXP 	probe: autoDraw = True
+174.1647 	EXP 	New trial (rep=2, index=1): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+174.1676 	DATA 	Keypress: v
+174.1786 	EXP 	fixation: autoDraw = False
+174.1786 	EXP 	line1: autoDraw = False
+174.1786 	EXP 	line2: autoDraw = False
+174.1786 	EXP 	line3: autoDraw = False
+174.1786 	EXP 	line4: autoDraw = False
+174.1786 	EXP 	probe: autoDraw = False
+174.1786 	EXP 	fixation: autoDraw = True
+175.1785 	EXP 	fixation: autoDraw = False
+175.1785 	EXP 	line1: autoDraw = True
+175.1785 	EXP 	line2: autoDraw = True
+175.1785 	EXP 	line3: autoDraw = True
+175.1785 	EXP 	line4: autoDraw = True
+176.1783 	EXP 	probe: autoDraw = True
+176.5476 	EXP 	New trial (rep=2, index=2): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+176.5505 	DATA 	Keypress: z
+176.5617 	EXP 	fixation: autoDraw = False
+176.5617 	EXP 	line1: autoDraw = False
+176.5617 	EXP 	line2: autoDraw = False
+176.5617 	EXP 	line3: autoDraw = False
+176.5617 	EXP 	line4: autoDraw = False
+176.5617 	EXP 	probe: autoDraw = False
+176.5617 	EXP 	fixation: autoDraw = True
+177.5618 	EXP 	fixation: autoDraw = False
+177.5618 	EXP 	line1: autoDraw = True
+177.5618 	EXP 	line2: autoDraw = True
+177.5618 	EXP 	line3: autoDraw = True
+177.5618 	EXP 	line4: autoDraw = True
+178.5613 	EXP 	probe: autoDraw = True
+179.0360 	DATA 	Keypress: v
+179.0473 	EXP 	New trial (rep=2, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+179.0612 	EXP 	fixation: autoDraw = False
+179.0612 	EXP 	line1: autoDraw = False
+179.0612 	EXP 	line2: autoDraw = False
+179.0612 	EXP 	line3: autoDraw = False
+179.0612 	EXP 	line4: autoDraw = False
+179.0612 	EXP 	probe: autoDraw = False
+179.0612 	EXP 	fixation: autoDraw = True
+180.0614 	EXP 	fixation: autoDraw = False
+180.0614 	EXP 	line1: autoDraw = True
+180.0614 	EXP 	line2: autoDraw = True
+180.0614 	EXP 	line3: autoDraw = True
+180.0614 	EXP 	line4: autoDraw = True
+181.0610 	EXP 	probe: autoDraw = True
+181.5857 	DATA 	Keypress: x
+181.5969 	EXP 	New trial (rep=3, index=0): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+181.6109 	EXP 	fixation: autoDraw = False
+181.6109 	EXP 	line1: autoDraw = False
+181.6109 	EXP 	line2: autoDraw = False
+181.6109 	EXP 	line3: autoDraw = False
+181.6109 	EXP 	line4: autoDraw = False
+181.6109 	EXP 	probe: autoDraw = False
+181.6109 	EXP 	fixation: autoDraw = True
+181.7472 	DATA 	Keypress: z
+182.6108 	EXP 	fixation: autoDraw = False
+182.6108 	EXP 	line1: autoDraw = True
+182.6108 	EXP 	line2: autoDraw = True
+182.6108 	EXP 	line3: autoDraw = True
+182.6108 	EXP 	line4: autoDraw = True
+183.6107 	EXP 	probe: autoDraw = True
+184.1966 	EXP 	New trial (rep=3, index=1): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+184.1995 	DATA 	Keypress: z
+184.2106 	EXP 	fixation: autoDraw = False
+184.2106 	EXP 	line1: autoDraw = False
+184.2106 	EXP 	line2: autoDraw = False
+184.2106 	EXP 	line3: autoDraw = False
+184.2106 	EXP 	line4: autoDraw = False
+184.2106 	EXP 	probe: autoDraw = False
+184.2106 	EXP 	fixation: autoDraw = True
+185.2107 	EXP 	fixation: autoDraw = False
+185.2107 	EXP 	line1: autoDraw = True
+185.2107 	EXP 	line2: autoDraw = True
+185.2107 	EXP 	line3: autoDraw = True
+185.2107 	EXP 	line4: autoDraw = True
+186.2103 	EXP 	probe: autoDraw = True
+186.7185 	DATA 	Keypress: x
+186.7296 	EXP 	New trial (rep=3, index=2): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+186.7437 	EXP 	fixation: autoDraw = False
+186.7437 	EXP 	line1: autoDraw = False
+186.7437 	EXP 	line2: autoDraw = False
+186.7437 	EXP 	line3: autoDraw = False
+186.7437 	EXP 	line4: autoDraw = False
+186.7437 	EXP 	probe: autoDraw = False
+186.7437 	EXP 	fixation: autoDraw = True
+187.7444 	EXP 	fixation: autoDraw = False
+187.7444 	EXP 	line1: autoDraw = True
+187.7444 	EXP 	line2: autoDraw = True
+187.7444 	EXP 	line3: autoDraw = True
+187.7444 	EXP 	line4: autoDraw = True
+188.7434 	EXP 	probe: autoDraw = True
+189.3348 	DATA 	Keypress: v
+189.3461 	EXP 	New trial (rep=3, index=3): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+189.3600 	EXP 	fixation: autoDraw = False
+189.3600 	EXP 	line1: autoDraw = False
+189.3600 	EXP 	line2: autoDraw = False
+189.3600 	EXP 	line3: autoDraw = False
+189.3600 	EXP 	line4: autoDraw = False
+189.3600 	EXP 	probe: autoDraw = False
+189.3600 	EXP 	fixation: autoDraw = True
+190.3598 	EXP 	fixation: autoDraw = False
+190.3598 	EXP 	line1: autoDraw = True
+190.3598 	EXP 	line2: autoDraw = True
+190.3598 	EXP 	line3: autoDraw = True
+190.3598 	EXP 	line4: autoDraw = True
+191.3598 	EXP 	probe: autoDraw = True
+192.0457 	EXP 	New trial (rep=4, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+192.0486 	DATA 	Keypress: v
+192.0596 	EXP 	fixation: autoDraw = False
+192.0596 	EXP 	line1: autoDraw = False
+192.0596 	EXP 	line2: autoDraw = False
+192.0596 	EXP 	line3: autoDraw = False
+192.0596 	EXP 	line4: autoDraw = False
+192.0596 	EXP 	probe: autoDraw = False
+192.0596 	EXP 	fixation: autoDraw = True
+193.0599 	EXP 	fixation: autoDraw = False
+193.0599 	EXP 	line1: autoDraw = True
+193.0599 	EXP 	line2: autoDraw = True
+193.0599 	EXP 	line3: autoDraw = True
+193.0599 	EXP 	line4: autoDraw = True
+194.0595 	EXP 	probe: autoDraw = True
+195.1621 	EXP 	New trial (rep=4, index=1): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+195.1650 	DATA 	Keypress: x
+195.1758 	EXP 	fixation: autoDraw = False
+195.1758 	EXP 	line1: autoDraw = False
+195.1758 	EXP 	line2: autoDraw = False
+195.1758 	EXP 	line3: autoDraw = False
+195.1758 	EXP 	line4: autoDraw = False
+195.1758 	EXP 	probe: autoDraw = False
+195.1758 	EXP 	fixation: autoDraw = True
+196.1759 	EXP 	fixation: autoDraw = False
+196.1759 	EXP 	line1: autoDraw = True
+196.1759 	EXP 	line2: autoDraw = True
+196.1759 	EXP 	line3: autoDraw = True
+196.1759 	EXP 	line4: autoDraw = True
+197.1758 	EXP 	probe: autoDraw = True
+197.7950 	EXP 	New trial (rep=4, index=2): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+197.7979 	DATA 	Keypress: z
+197.8094 	EXP 	fixation: autoDraw = False
+197.8094 	EXP 	line1: autoDraw = False
+197.8094 	EXP 	line2: autoDraw = False
+197.8094 	EXP 	line3: autoDraw = False
+197.8094 	EXP 	line4: autoDraw = False
+197.8094 	EXP 	probe: autoDraw = False
+197.8094 	EXP 	fixation: autoDraw = True
+198.8090 	EXP 	fixation: autoDraw = False
+198.8090 	EXP 	line1: autoDraw = True
+198.8090 	EXP 	line2: autoDraw = True
+198.8090 	EXP 	line3: autoDraw = True
+198.8090 	EXP 	line4: autoDraw = True
+199.8086 	EXP 	probe: autoDraw = True
+200.4445 	EXP 	New trial (rep=4, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+200.4481 	DATA 	Keypress: v
+200.4586 	EXP 	fixation: autoDraw = False
+200.4586 	EXP 	line1: autoDraw = False
+200.4586 	EXP 	line2: autoDraw = False
+200.4586 	EXP 	line3: autoDraw = False
+200.4586 	EXP 	line4: autoDraw = False
+200.4586 	EXP 	probe: autoDraw = False
+200.4586 	EXP 	fixation: autoDraw = True
+201.4584 	EXP 	fixation: autoDraw = False
+201.4584 	EXP 	line1: autoDraw = True
+201.4584 	EXP 	line2: autoDraw = True
+201.4584 	EXP 	line3: autoDraw = True
+201.4584 	EXP 	line4: autoDraw = True
+202.4585 	EXP 	probe: autoDraw = True
+203.1776 	EXP 	New trial (rep=5, index=0): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+203.1807 	DATA 	Keypress: z
+203.1914 	EXP 	fixation: autoDraw = False
+203.1914 	EXP 	line1: autoDraw = False
+203.1914 	EXP 	line2: autoDraw = False
+203.1914 	EXP 	line3: autoDraw = False
+203.1914 	EXP 	line4: autoDraw = False
+203.1914 	EXP 	probe: autoDraw = False
+203.1914 	EXP 	fixation: autoDraw = True
+204.1916 	EXP 	fixation: autoDraw = False
+204.1916 	EXP 	line1: autoDraw = True
+204.1916 	EXP 	line2: autoDraw = True
+204.1916 	EXP 	line3: autoDraw = True
+204.1916 	EXP 	line4: autoDraw = True
+205.1912 	EXP 	probe: autoDraw = True
+206.0271 	EXP 	New trial (rep=5, index=1): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+206.0300 	DATA 	Keypress: c
+206.0412 	EXP 	fixation: autoDraw = False
+206.0412 	EXP 	line1: autoDraw = False
+206.0412 	EXP 	line2: autoDraw = False
+206.0412 	EXP 	line3: autoDraw = False
+206.0412 	EXP 	line4: autoDraw = False
+206.0412 	EXP 	probe: autoDraw = False
+206.0412 	EXP 	fixation: autoDraw = True
+207.0412 	EXP 	fixation: autoDraw = False
+207.0412 	EXP 	line1: autoDraw = True
+207.0412 	EXP 	line2: autoDraw = True
+207.0412 	EXP 	line3: autoDraw = True
+207.0412 	EXP 	line4: autoDraw = True
+208.0409 	EXP 	probe: autoDraw = True
+208.5823 	DATA 	Keypress: c
+208.5935 	EXP 	New trial (rep=5, index=2): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+208.6076 	EXP 	fixation: autoDraw = False
+208.6076 	EXP 	line1: autoDraw = False
+208.6076 	EXP 	line2: autoDraw = False
+208.6076 	EXP 	line3: autoDraw = False
+208.6076 	EXP 	line4: autoDraw = False
+208.6076 	EXP 	probe: autoDraw = False
+208.6076 	EXP 	fixation: autoDraw = True
+209.6078 	EXP 	fixation: autoDraw = False
+209.6078 	EXP 	line1: autoDraw = True
+209.6078 	EXP 	line2: autoDraw = True
+209.6078 	EXP 	line3: autoDraw = True
+209.6078 	EXP 	line4: autoDraw = True
+210.6072 	EXP 	probe: autoDraw = True
+211.2764 	EXP 	New trial (rep=5, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+211.2792 	DATA 	Keypress: x
+211.2905 	EXP 	fixation: autoDraw = False
+211.2905 	EXP 	line1: autoDraw = False
+211.2905 	EXP 	line2: autoDraw = False
+211.2905 	EXP 	line3: autoDraw = False
+211.2905 	EXP 	line4: autoDraw = False
+211.2905 	EXP 	probe: autoDraw = False
+211.2905 	EXP 	fixation: autoDraw = True
+212.2905 	EXP 	fixation: autoDraw = False
+212.2905 	EXP 	line1: autoDraw = True
+212.2905 	EXP 	line2: autoDraw = True
+212.2905 	EXP 	line3: autoDraw = True
+212.2905 	EXP 	line4: autoDraw = True
+213.2902 	EXP 	probe: autoDraw = True
+213.9763 	EXP 	New trial (rep=6, index=0): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+213.9792 	DATA 	Keypress: z
+213.9902 	EXP 	fixation: autoDraw = False
+213.9902 	EXP 	line1: autoDraw = False
+213.9902 	EXP 	line2: autoDraw = False
+213.9902 	EXP 	line3: autoDraw = False
+213.9902 	EXP 	line4: autoDraw = False
+213.9902 	EXP 	probe: autoDraw = False
+213.9902 	EXP 	fixation: autoDraw = True
+214.9902 	EXP 	fixation: autoDraw = False
+214.9902 	EXP 	line1: autoDraw = True
+214.9902 	EXP 	line2: autoDraw = True
+214.9902 	EXP 	line3: autoDraw = True
+214.9902 	EXP 	line4: autoDraw = True
+215.9900 	EXP 	probe: autoDraw = True
+216.5924 	EXP 	New trial (rep=6, index=1): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+216.5952 	DATA 	Keypress: v
+216.6066 	EXP 	fixation: autoDraw = False
+216.6066 	EXP 	line1: autoDraw = False
+216.6066 	EXP 	line2: autoDraw = False
+216.6066 	EXP 	line3: autoDraw = False
+216.6066 	EXP 	line4: autoDraw = False
+216.6066 	EXP 	probe: autoDraw = False
+216.6066 	EXP 	fixation: autoDraw = True
+217.6065 	EXP 	fixation: autoDraw = False
+217.6065 	EXP 	line1: autoDraw = True
+217.6065 	EXP 	line2: autoDraw = True
+217.6065 	EXP 	line3: autoDraw = True
+217.6065 	EXP 	line4: autoDraw = True
+218.6063 	EXP 	probe: autoDraw = True
+219.1088 	EXP 	New trial (rep=6, index=2): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+219.1117 	DATA 	Keypress: v
+219.1229 	EXP 	fixation: autoDraw = False
+219.1229 	EXP 	line1: autoDraw = False
+219.1229 	EXP 	line2: autoDraw = False
+219.1229 	EXP 	line3: autoDraw = False
+219.1229 	EXP 	line4: autoDraw = False
+219.1229 	EXP 	probe: autoDraw = False
+219.1229 	EXP 	fixation: autoDraw = True
+220.1229 	EXP 	fixation: autoDraw = False
+220.1229 	EXP 	line1: autoDraw = True
+220.1229 	EXP 	line2: autoDraw = True
+220.1229 	EXP 	line3: autoDraw = True
+220.1229 	EXP 	line4: autoDraw = True
+221.1226 	EXP 	probe: autoDraw = True
+221.7080 	EXP 	New trial (rep=6, index=3): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+221.7101 	DATA 	Keypress: z
+221.7225 	EXP 	fixation: autoDraw = False
+221.7225 	EXP 	line1: autoDraw = False
+221.7225 	EXP 	line2: autoDraw = False
+221.7225 	EXP 	line3: autoDraw = False
+221.7225 	EXP 	line4: autoDraw = False
+221.7225 	EXP 	probe: autoDraw = False
+221.7225 	EXP 	fixation: autoDraw = True
+222.7226 	EXP 	fixation: autoDraw = False
+222.7226 	EXP 	line1: autoDraw = True
+222.7226 	EXP 	line2: autoDraw = True
+222.7226 	EXP 	line3: autoDraw = True
+222.7226 	EXP 	line4: autoDraw = True
+223.7222 	EXP 	probe: autoDraw = True
+224.3247 	EXP 	New trial (rep=7, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+224.3276 	DATA 	Keypress: v
+224.3389 	EXP 	fixation: autoDraw = False
+224.3389 	EXP 	line1: autoDraw = False
+224.3389 	EXP 	line2: autoDraw = False
+224.3389 	EXP 	line3: autoDraw = False
+224.3389 	EXP 	line4: autoDraw = False
+224.3389 	EXP 	probe: autoDraw = False
+224.3389 	EXP 	fixation: autoDraw = True
+225.3390 	EXP 	fixation: autoDraw = False
+225.3390 	EXP 	line1: autoDraw = True
+225.3390 	EXP 	line2: autoDraw = True
+225.3390 	EXP 	line3: autoDraw = True
+225.3390 	EXP 	line4: autoDraw = True
+226.3385 	EXP 	probe: autoDraw = True
+227.2910 	EXP 	New trial (rep=7, index=1): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+227.2939 	DATA 	Keypress: x
+227.3052 	EXP 	fixation: autoDraw = False
+227.3052 	EXP 	line1: autoDraw = False
+227.3052 	EXP 	line2: autoDraw = False
+227.3052 	EXP 	line3: autoDraw = False
+227.3052 	EXP 	line4: autoDraw = False
+227.3052 	EXP 	probe: autoDraw = False
+227.3052 	EXP 	fixation: autoDraw = True
+228.3054 	EXP 	fixation: autoDraw = False
+228.3054 	EXP 	line1: autoDraw = True
+228.3054 	EXP 	line2: autoDraw = True
+228.3054 	EXP 	line3: autoDraw = True
+228.3054 	EXP 	line4: autoDraw = True
+229.3049 	EXP 	probe: autoDraw = True
+230.3742 	EXP 	New trial (rep=7, index=2): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+230.3771 	DATA 	Keypress: c
+230.3880 	EXP 	fixation: autoDraw = False
+230.3880 	EXP 	line1: autoDraw = False
+230.3880 	EXP 	line2: autoDraw = False
+230.3880 	EXP 	line3: autoDraw = False
+230.3880 	EXP 	line4: autoDraw = False
+230.3880 	EXP 	probe: autoDraw = False
+230.3880 	EXP 	fixation: autoDraw = True
+231.3882 	EXP 	fixation: autoDraw = False
+231.3882 	EXP 	line1: autoDraw = True
+231.3882 	EXP 	line2: autoDraw = True
+231.3882 	EXP 	line3: autoDraw = True
+231.3882 	EXP 	line4: autoDraw = True
+232.3879 	EXP 	probe: autoDraw = True
+233.1625 	DATA 	Keypress: z
+233.1737 	EXP 	New trial (rep=7, index=3): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+233.1877 	EXP 	fixation: autoDraw = False
+233.1877 	EXP 	line1: autoDraw = False
+233.1877 	EXP 	line2: autoDraw = False
+233.1877 	EXP 	line3: autoDraw = False
+233.1877 	EXP 	line4: autoDraw = False
+233.1877 	EXP 	probe: autoDraw = False
+233.1877 	EXP 	fixation: autoDraw = True
+234.1878 	EXP 	fixation: autoDraw = False
+234.1878 	EXP 	line1: autoDraw = True
+234.1878 	EXP 	line2: autoDraw = True
+234.1878 	EXP 	line3: autoDraw = True
+234.1878 	EXP 	line4: autoDraw = True
+235.1875 	EXP 	probe: autoDraw = True
+236.0788 	DATA 	Keypress: x
+236.0901 	EXP 	New trial (rep=8, index=0): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+236.1040 	EXP 	fixation: autoDraw = False
+236.1040 	EXP 	line1: autoDraw = False
+236.1040 	EXP 	line2: autoDraw = False
+236.1040 	EXP 	line3: autoDraw = False
+236.1040 	EXP 	line4: autoDraw = False
+236.1040 	EXP 	probe: autoDraw = False
+236.1040 	EXP 	fixation: autoDraw = True
+237.1040 	EXP 	fixation: autoDraw = False
+237.1040 	EXP 	line1: autoDraw = True
+237.1040 	EXP 	line2: autoDraw = True
+237.1040 	EXP 	line3: autoDraw = True
+237.1040 	EXP 	line4: autoDraw = True
+238.1037 	EXP 	probe: autoDraw = True
+238.5064 	EXP 	New trial (rep=8, index=1): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+238.5095 	DATA 	Keypress: c
+238.5203 	EXP 	fixation: autoDraw = False
+238.5203 	EXP 	line1: autoDraw = False
+238.5203 	EXP 	line2: autoDraw = False
+238.5203 	EXP 	line3: autoDraw = False
+238.5203 	EXP 	line4: autoDraw = False
+238.5203 	EXP 	probe: autoDraw = False
+238.5203 	EXP 	fixation: autoDraw = True
+239.5204 	EXP 	fixation: autoDraw = False
+239.5204 	EXP 	line1: autoDraw = True
+239.5204 	EXP 	line2: autoDraw = True
+239.5204 	EXP 	line3: autoDraw = True
+239.5204 	EXP 	line4: autoDraw = True
+240.5201 	EXP 	probe: autoDraw = True
+241.1892 	EXP 	New trial (rep=8, index=2): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+241.1920 	DATA 	Keypress: v
+241.2033 	EXP 	fixation: autoDraw = False
+241.2033 	EXP 	line1: autoDraw = False
+241.2033 	EXP 	line2: autoDraw = False
+241.2033 	EXP 	line3: autoDraw = False
+241.2033 	EXP 	line4: autoDraw = False
+241.2033 	EXP 	probe: autoDraw = False
+241.2033 	EXP 	fixation: autoDraw = True
+242.2034 	EXP 	fixation: autoDraw = False
+242.2034 	EXP 	line1: autoDraw = True
+242.2034 	EXP 	line2: autoDraw = True
+242.2034 	EXP 	line3: autoDraw = True
+242.2034 	EXP 	line4: autoDraw = True
+243.2031 	EXP 	probe: autoDraw = True
+244.1892 	EXP 	New trial (rep=8, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+244.1921 	DATA 	Keypress: z
+244.2029 	EXP 	fixation: autoDraw = False
+244.2029 	EXP 	line1: autoDraw = False
+244.2029 	EXP 	line2: autoDraw = False
+244.2029 	EXP 	line3: autoDraw = False
+244.2029 	EXP 	line4: autoDraw = False
+244.2029 	EXP 	probe: autoDraw = False
+244.2029 	EXP 	fixation: autoDraw = True
+245.2030 	EXP 	fixation: autoDraw = False
+245.2030 	EXP 	line1: autoDraw = True
+245.2030 	EXP 	line2: autoDraw = True
+245.2030 	EXP 	line3: autoDraw = True
+245.2030 	EXP 	line4: autoDraw = True
+246.2027 	EXP 	probe: autoDraw = True
+246.8441 	DATA 	Keypress: z
+246.8552 	EXP 	New trial (rep=9, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+246.8694 	EXP 	fixation: autoDraw = False
+246.8694 	EXP 	line1: autoDraw = False
+246.8694 	EXP 	line2: autoDraw = False
+246.8694 	EXP 	line3: autoDraw = False
+246.8694 	EXP 	line4: autoDraw = False
+246.8694 	EXP 	probe: autoDraw = False
+246.8694 	EXP 	fixation: autoDraw = True
+247.8695 	EXP 	fixation: autoDraw = False
+247.8695 	EXP 	line1: autoDraw = True
+247.8695 	EXP 	line2: autoDraw = True
+247.8695 	EXP 	line3: autoDraw = True
+247.8695 	EXP 	line4: autoDraw = True
+248.8692 	EXP 	probe: autoDraw = True
+249.6770 	DATA 	Keypress: x
+249.6884 	EXP 	New trial (rep=9, index=1): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+249.7023 	EXP 	fixation: autoDraw = False
+249.7023 	EXP 	line1: autoDraw = False
+249.7023 	EXP 	line2: autoDraw = False
+249.7023 	EXP 	line3: autoDraw = False
+249.7023 	EXP 	line4: autoDraw = False
+249.7023 	EXP 	probe: autoDraw = False
+249.7023 	EXP 	fixation: autoDraw = True
+250.7023 	EXP 	fixation: autoDraw = False
+250.7023 	EXP 	line1: autoDraw = True
+250.7023 	EXP 	line2: autoDraw = True
+250.7023 	EXP 	line3: autoDraw = True
+250.7023 	EXP 	line4: autoDraw = True
+251.7020 	EXP 	probe: autoDraw = True
+253.2210 	EXP 	New trial (rep=9, index=2): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+253.2238 	DATA 	Keypress: c
+253.2352 	EXP 	fixation: autoDraw = False
+253.2352 	EXP 	line1: autoDraw = False
+253.2352 	EXP 	line2: autoDraw = False
+253.2352 	EXP 	line3: autoDraw = False
+253.2352 	EXP 	line4: autoDraw = False
+253.2352 	EXP 	probe: autoDraw = False
+253.2352 	EXP 	fixation: autoDraw = True
+254.2353 	EXP 	fixation: autoDraw = False
+254.2353 	EXP 	line1: autoDraw = True
+254.2353 	EXP 	line2: autoDraw = True
+254.2353 	EXP 	line3: autoDraw = True
+254.2353 	EXP 	line4: autoDraw = True
+255.2349 	EXP 	probe: autoDraw = True
+255.8875 	EXP 	New trial (rep=9, index=3): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+255.8904 	DATA 	Keypress: v
+255.9014 	EXP 	fixation: autoDraw = False
+255.9014 	EXP 	line1: autoDraw = False
+255.9014 	EXP 	line2: autoDraw = False
+255.9014 	EXP 	line3: autoDraw = False
+255.9014 	EXP 	line4: autoDraw = False
+255.9014 	EXP 	probe: autoDraw = False
+255.9014 	EXP 	fixation: autoDraw = True
+256.9021 	EXP 	fixation: autoDraw = False
+256.9021 	EXP 	line1: autoDraw = True
+256.9021 	EXP 	line2: autoDraw = True
+256.9021 	EXP 	line3: autoDraw = True
+256.9021 	EXP 	line4: autoDraw = True
+257.9012 	EXP 	probe: autoDraw = True
+259.0205 	EXP 	New trial (rep=10, index=0): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+259.0234 	DATA 	Keypress: c
+259.0343 	EXP 	fixation: autoDraw = False
+259.0343 	EXP 	line1: autoDraw = False
+259.0343 	EXP 	line2: autoDraw = False
+259.0343 	EXP 	line3: autoDraw = False
+259.0343 	EXP 	line4: autoDraw = False
+259.0343 	EXP 	probe: autoDraw = False
+259.0343 	EXP 	fixation: autoDraw = True
+260.0345 	EXP 	fixation: autoDraw = False
+260.0345 	EXP 	line1: autoDraw = True
+260.0345 	EXP 	line2: autoDraw = True
+260.0345 	EXP 	line3: autoDraw = True
+260.0345 	EXP 	line4: autoDraw = True
+261.0341 	EXP 	probe: autoDraw = True
+261.7201 	EXP 	New trial (rep=10, index=1): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+261.7230 	DATA 	Keypress: x
+261.7341 	EXP 	fixation: autoDraw = False
+261.7341 	EXP 	line1: autoDraw = False
+261.7341 	EXP 	line2: autoDraw = False
+261.7341 	EXP 	line3: autoDraw = False
+261.7341 	EXP 	line4: autoDraw = False
+261.7341 	EXP 	probe: autoDraw = False
+261.7341 	EXP 	fixation: autoDraw = True
+262.7341 	EXP 	fixation: autoDraw = False
+262.7341 	EXP 	line1: autoDraw = True
+262.7341 	EXP 	line2: autoDraw = True
+262.7341 	EXP 	line3: autoDraw = True
+262.7341 	EXP 	line4: autoDraw = True
+263.7337 	EXP 	probe: autoDraw = True
+264.3198 	EXP 	New trial (rep=10, index=2): OrderedDict([('pos', 150), ('corr_resp', 'v')])
+264.3226 	DATA 	Keypress: x
+264.3336 	EXP 	fixation: autoDraw = False
+264.3336 	EXP 	line1: autoDraw = False
+264.3336 	EXP 	line2: autoDraw = False
+264.3336 	EXP 	line3: autoDraw = False
+264.3336 	EXP 	line4: autoDraw = False
+264.3336 	EXP 	probe: autoDraw = False
+264.3336 	EXP 	fixation: autoDraw = True
+265.3339 	EXP 	fixation: autoDraw = False
+265.3339 	EXP 	line1: autoDraw = True
+265.3339 	EXP 	line2: autoDraw = True
+265.3339 	EXP 	line3: autoDraw = True
+265.3339 	EXP 	line4: autoDraw = True
+266.3335 	EXP 	probe: autoDraw = True
+267.0752 	DATA 	Keypress: v
+267.0861 	EXP 	New trial (rep=10, index=3): OrderedDict([('pos', -150), ('corr_resp', 'z')])
+267.1001 	EXP 	fixation: autoDraw = False
+267.1001 	EXP 	line1: autoDraw = False
+267.1001 	EXP 	line2: autoDraw = False
+267.1001 	EXP 	line3: autoDraw = False
+267.1001 	EXP 	line4: autoDraw = False
+267.1001 	EXP 	probe: autoDraw = False
+267.1001 	EXP 	fixation: autoDraw = True
+268.1000 	EXP 	fixation: autoDraw = False
+268.1000 	EXP 	line1: autoDraw = True
+268.1000 	EXP 	line2: autoDraw = True
+268.1000 	EXP 	line3: autoDraw = True
+268.1000 	EXP 	line4: autoDraw = True
+269.0998 	EXP 	probe: autoDraw = True
+269.7189 	EXP 	New trial (rep=11, index=0): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+269.7219 	DATA 	Keypress: z
+269.7331 	EXP 	fixation: autoDraw = False
+269.7331 	EXP 	line1: autoDraw = False
+269.7331 	EXP 	line2: autoDraw = False
+269.7331 	EXP 	line3: autoDraw = False
+269.7331 	EXP 	line4: autoDraw = False
+269.7331 	EXP 	probe: autoDraw = False
+269.7331 	EXP 	fixation: autoDraw = True
+270.7331 	EXP 	fixation: autoDraw = False
+270.7331 	EXP 	line1: autoDraw = True
+270.7331 	EXP 	line2: autoDraw = True
+270.7331 	EXP 	line3: autoDraw = True
+270.7331 	EXP 	line4: autoDraw = True
+271.7327 	EXP 	probe: autoDraw = True
+272.2854 	EXP 	New trial (rep=11, index=1): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+272.2883 	DATA 	Keypress: v
+272.2995 	EXP 	fixation: autoDraw = False
+272.2995 	EXP 	line1: autoDraw = False
+272.2995 	EXP 	line2: autoDraw = False
+272.2995 	EXP 	line3: autoDraw = False
+272.2995 	EXP 	line4: autoDraw = False
+272.2995 	EXP 	probe: autoDraw = False
+272.2995 	EXP 	fixation: autoDraw = True
+273.2994 	EXP 	fixation: autoDraw = False
+273.2994 	EXP 	line1: autoDraw = True
+273.2994 	EXP 	line2: autoDraw = True
+273.2994 	EXP 	line3: autoDraw = True
+273.2994 	EXP 	line4: autoDraw = True
+274.2992 	EXP 	probe: autoDraw = True
+275.1516 	EXP 	New trial (rep=11, index=2): OrderedDict([('pos', -50), ('corr_resp', 'x')])
+275.1544 	DATA 	Keypress: x
+275.1657 	EXP 	fixation: autoDraw = False
+275.1657 	EXP 	line1: autoDraw = False
+275.1657 	EXP 	line2: autoDraw = False
+275.1657 	EXP 	line3: autoDraw = False
+275.1657 	EXP 	line4: autoDraw = False
+275.1657 	EXP 	probe: autoDraw = False
+275.1657 	EXP 	fixation: autoDraw = True
+276.1658 	EXP 	fixation: autoDraw = False
+276.1658 	EXP 	line1: autoDraw = True
+276.1658 	EXP 	line2: autoDraw = True
+276.1658 	EXP 	line3: autoDraw = True
+276.1658 	EXP 	line4: autoDraw = True
+277.1654 	EXP 	probe: autoDraw = True
+277.6408 	DATA 	Keypress: x
+277.6512 	EXP 	New trial (rep=11, index=3): OrderedDict([('pos', 50), ('corr_resp', 'c')])
+277.6653 	EXP 	fixation: autoDraw = False
+277.6653 	EXP 	line1: autoDraw = False
+277.6653 	EXP 	line2: autoDraw = False
+277.6653 	EXP 	line3: autoDraw = False
+277.6653 	EXP 	line4: autoDraw = False
+277.6653 	EXP 	probe: autoDraw = False
+277.6653 	EXP 	fixation: autoDraw = True
+278.6655 	EXP 	fixation: autoDraw = False
+278.6655 	EXP 	line1: autoDraw = True
+278.6655 	EXP 	line2: autoDraw = True
+278.6655 	EXP 	line3: autoDraw = True
+278.6655 	EXP 	line4: autoDraw = True
+279.6651 	EXP 	probe: autoDraw = True
+280.4512 	DATA 	Keypress: c
+280.4650 	EXP 	fixation: autoDraw = False
+280.4650 	EXP 	line1: autoDraw = False
+280.4650 	EXP 	line2: autoDraw = False
+280.4650 	EXP 	line3: autoDraw = False
+280.4650 	EXP 	line4: autoDraw = False
+280.4650 	EXP 	probe: autoDraw = False
+280.6989 	EXP 	window1: mouseVisible = True
